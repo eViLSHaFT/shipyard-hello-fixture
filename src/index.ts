@@ -1,1 +1,1 @@
-export {};
+export { reverse, titleCase } from './strings';
