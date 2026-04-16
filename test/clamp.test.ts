@@ -1,6 +1,6 @@
 import { describe, test } from 'node:test';
 import assert from 'node:assert';
-import { clamp } from '../src/clamp.ts';
+import { clamp } from '../src/index.ts';
 
 describe('clamp', () => {
   test('returns value when within range', () => {
