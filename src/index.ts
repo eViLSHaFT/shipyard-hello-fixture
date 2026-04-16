@@ -1,1 +1,1 @@
-export {};
+export { double } from './double';
