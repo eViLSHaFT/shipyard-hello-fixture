@@ -1,1 +1,1 @@
-export {};
+export { quintuple } from './quintuple';
