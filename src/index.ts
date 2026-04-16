@@ -1,1 +1,1 @@
-export { quintuple } from './quintuple';
+export { quintuple } from './quintuple.js';
