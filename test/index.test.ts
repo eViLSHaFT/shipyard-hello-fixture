@@ -1,9 +1,6 @@
 import { describe, test } from 'node:test';
 import assert from 'node:assert';
-// Testing that clamp is available from the main module
-// Note: Direct import from index.ts has module resolution issues with .ts extensions
-// This is a limitation of the experimental TypeScript support in Node.js
-import { clamp } from '../src/clamp.ts';
+import { clamp } from '../src/index.ts';
 
 describe('module exports', () => {
   test('clamp function is exported and callable', () => {

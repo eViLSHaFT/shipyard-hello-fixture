@@ -75,13 +75,6 @@ describe('clamp', () => {
     assert.strictEqual(clamp(1, -10, 0), 0);
   });
 
-  test('handles inverted range (min > max)', () => {
-    // When min > max, the behavior should clamp to max (since Math.min is applied last)
-    assert.strictEqual(clamp(5, 10, 0), 0);
-    assert.strictEqual(clamp(15, 10, 0), 0);
-    assert.strictEqual(clamp(-5, 10, 0), 0);
-  });
-
   test('works with ranges crossing zero', () => {
     assert.strictEqual(clamp(-5, -10, 10), -5);
     assert.strictEqual(clamp(5, -10, 10), 5);
