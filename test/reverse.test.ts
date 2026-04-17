@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert';
-import { reverse } from '../lib/reverse';
+import { reverse } from '../lib/reverse.js';
 
 test('reverse() reverses a simple string', () => {
   assert.strictEqual(reverse('hello'), 'olleh');
