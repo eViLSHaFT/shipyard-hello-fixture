@@ -1,1 +1,1 @@
-export {};
+export { quad } from './quad';
