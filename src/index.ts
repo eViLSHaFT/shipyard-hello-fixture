@@ -1,1 +1,1 @@
-export {};
+export { upper } from './upper';
